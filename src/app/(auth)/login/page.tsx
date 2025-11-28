@@ -1,3 +1,12 @@
+import {Metadata} from "next";
+
+export const metadata : Metadata = {
+    title: 'Login - My App',
+    description: 'Login to access your account on My App',
+    icons : {
+        icon : '/next.svg',
+    },
+}
 export default function LoginPage() {
     return (
         <>
