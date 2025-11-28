@@ -1,5 +1,5 @@
 import {Metadata} from "next";
-import Counter from "@/app/counter/counter";
+import Counter from "@/app/(1-20)/counter/counter";
 
 export const generateMetadata = async () : Promise<Metadata> => {
     return {

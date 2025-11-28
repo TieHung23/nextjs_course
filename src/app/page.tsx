@@ -7,7 +7,6 @@ export default function HomePage() {
             <Link href="/counter">Counter</Link>
             <Link href="/login">Login</Link>
             <Link href="/register">Register</Link>
-            <Link href="/product/123">Product 123</Link>
         </>
     );
 }

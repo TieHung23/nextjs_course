@@ -21,7 +21,7 @@ export default function NotFound() {
             </p>
 
             <Link
-                href="/"
+                href="/public"
                 style={{
                     marginTop: "30px",
                     display: "inline-block",
