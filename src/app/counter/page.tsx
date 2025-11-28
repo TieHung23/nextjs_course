@@ -3,7 +3,7 @@ import Counter from "@/app/counter/counter";
 
 export const generateMetadata = async () : Promise<Metadata> => {
     return {
-        title: 'Counter - My App',
+        title: 'Counter',
         description: 'A simple counter page in My App',
     };
 }

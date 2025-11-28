@@ -3,7 +3,10 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
 export const metadata : Metadata = {
-    title: 'My App',
+    title: {
+        default : "TieHung23 - Next.js App",
+        template: "%s - TieHung23",
+    },
     description: 'This is my app built with Next.js',
 };
 
