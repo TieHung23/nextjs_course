@@ -8,7 +8,7 @@ export default function TestErrorPage() {
     useEffect(() => {
         const timer = setTimeout(() => {
             setShouldError(true);
-        }, 100);
+        }, 3000);
 
         return () => clearTimeout(timer); // Cleanup
     }, []);
