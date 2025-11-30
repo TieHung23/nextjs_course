@@ -1,4 +1,5 @@
 export default function UserPage() {
+    console.log('UserPage rendered');
     return (
         <>
             <h1>User Page</h1>

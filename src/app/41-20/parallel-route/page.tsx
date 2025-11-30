@@ -1,4 +1,5 @@
 export default function ParallelPage() {
+    console.log('ParallelPage rendered');
     return (
         <>
             <h1>Parallel Route Page</h1>

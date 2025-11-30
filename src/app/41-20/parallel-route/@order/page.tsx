@@ -1,4 +1,5 @@
 export default function OrderPage() {
+    console.log('OrderPage rendered');
     return (
         <>
             <h1>Order Page</h1>
